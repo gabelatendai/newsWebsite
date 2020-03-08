@@ -80,6 +80,17 @@
                             </li>
                         </ul>
                     </li>
+                    <li class="slide">
+                        <a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fe fe-grid"></i><span class="side-menu__label">Categories</span><i class="angle fa fa-angle-right"></i></a>
+                        <ul class="slide-menu">
+                            <li>
+                                <a href="addcategory.php" class="slide-item">Add Category</a>
+                            </li>
+                            <li>
+                                <a href="Category.php" class="slide-item">All Category</a>
+                            </li>
+                        </ul>
+                    </li>
 
                     <li class="slide">
                         <a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fe fe-edit"></i><span class="side-menu__label">Forms</span><i class="angle fa fa-angle-right"></i></a>

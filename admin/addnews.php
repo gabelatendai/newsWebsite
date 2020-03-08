@@ -48,9 +48,19 @@ $title =$_POST['title'];
                                                         <div class="form-group">
                                                             <select type="text" class="form-control" name="category" required >
                                                                 <option value="">Select Category</option>
-                                                                <option value="Business">Business</option>
-                                                                <option value="Sports">Sports</option>
-                                                                <option value="Politics">Politics</option>
+                                                                <?php
+                                                                $sliders = R::findAll('categories');
+
+                                                                foreach ($sliders as $slider) {
+                                                                    $id = $slider->id;
+                                                                    ?>
+                                                                    <option value="<?php echo $id ?>"><?php echo $id = $slider->title; ?></option>
+                                                                    <?php
+                                                                }
+                                                                ?>
+                                                               <option <a class="btn btn-success" href="addcategory.php" style="color: #FFF; float: right"
+                                                                >Add News and Updates</a></select>
+
                                                             </select>
                                                         </div>
                                                         <div class="form-group">

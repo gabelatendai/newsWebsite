@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dea5ce8-3052-40ca-9c39-1746530a11d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/addnews.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/news.php" afterDir="false" />
+    <list default="true" id="6dea5ce8-3052-40ca-9c39-1746530a11d3" name="Default Changelist" comment="added add news code">
+      <change afterPath="$PROJECT_DIR$/Uploads/20190126_115507.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/addcategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rb.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/addnews.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/addnews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/news.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/sidebar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,13 +26,16 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1YpoXs2x8zXYCBPBER97AuhjfUw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -57,18 +62,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583648942438</updated>
-      <workItem from="1583648954246" duration="15380000" />
+      <workItem from="1583648954246" duration="18376000" />
     </task>
+    <task id="LOCAL-00001" summary="added add news code">
+      <created>1583678003182</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583678003182</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added add news code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added add news code" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="86" y="0" key="CommitChangelistDialog2" timestamp="1583677989981">
+    <state x="86" y="0" key="CommitChangelistDialog2" timestamp="1583682558035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="86" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583677989981" />
+    <state x="86" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583682558035" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1583659123017">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

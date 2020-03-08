@@ -24,25 +24,21 @@ R::setup('mysql:host=localhost;dbname=newsDb', 'root', ''); //for both mysql or 
 												<table id="example" class="table table-striped table-bordered w-100 text-nowrap">
 													<thead>
 														<tr>
-															<th class="wd-15p">Image</th>
-															<th class="wd-15p">Title</th>
-															<th class="wd-15p">Category</th>
+															<th class="wd-15p">Category Title</th>
+
 															<th class="wd-25p">Delete</th>
 														</tr>
 													</thead>
                                                     <tbody>
                                                     <?php
-                                                    $sliders = R::findAll('news');
+                                                    $sliders = R::findAll('categories');
 
                                                     foreach ($sliders as $slider) {
                                                         $id = $slider->id;
                                                         ?>
 
                                                         <tr>
-                                                            <td><img src="<?php echo $slider->image ?>" height="70px"
-                                                                     width="100px"></td>
                                                             <td><?php echo $slider->title ?></td>
-                                                            <td><?php echo $slider->category ?></td>
                                                             <td><a class="pull-right" href="#delete<?php echo $id; ?>"
                                                                    data-toggle="modal"
                                                                    data-target="#delete<?php echo $id; ?>">
