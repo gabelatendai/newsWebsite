@@ -46,13 +46,13 @@
         <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
         <aside class="app-sidebar ">
             <div class="sidebar-img">
-                <a class="navbar-brand" href="index-2.html"><img alt="..." class="navbar-brand-img main-logo" src="assets/img/brand/logo-dark.png"> <img alt="..." class="navbar-brand-img logo" src="assets/img/brand/logo.png"></a>
+                <a class="navbar-brand" href="dashboard.php"><img alt="..." class="navbar-brand-img main-logo" src="assets/img/brand/logo-dark.png"> <img alt="..." class="navbar-brand-img logo" src="assets/img/brand/logo.png"></a>
                 <ul class="side-menu">
                     <li class="slide">
                         <a class="side-menu__item active" data-toggle="slide" href="#"><i class="side-menu__icon fe fe-home"></i><span class="side-menu__label">Dashboard</span><i class="angle fa fa-angle-right"></i></a>
                         <ul class="slide-menu">
                             <li>
-                                <a class="slide-item" href="index-2.html">Retail Sales Dashboard</a>
+                                <a class="slide-item" href="dashboard.php">Admin Dashboard</a>
                             </li>
                             <li>
                                 <a class="slide-item" href="dashboard-social.html">Social Dashboard</a>
@@ -70,34 +70,13 @@
                         </ul>
                     </li>
                     <li class="slide">
-                        <a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fe fe-grid"></i><span class="side-menu__label">Apps</span><i class="angle fa fa-angle-right"></i></a>
+                        <a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fe fe-grid"></i><span class="side-menu__label">News</span><i class="angle fa fa-angle-right"></i></a>
                         <ul class="slide-menu">
                             <li>
-                                <a href="cards.html" class="slide-item">Cards</a>
+                                <a href="addnews.php" class="slide-item">Add News</a>
                             </li>
                             <li>
-                                <a href="dragable-cards.html" class="slide-item">Dragable Cards</a>
-                            </li>
-                            <li>
-                                <a href="widgets.html" class="slide-item">Widgets</a>
-                            </li>
-                            <li>
-                                <a href="full-calendar.html" class="slide-item">Full Calendar</a>
-                            </li>
-                            <li>
-                                <a href="range-slider.html" class="slide-item">Range Slider</a>
-                            </li>
-                            <li>
-                                <a href="scroll-bar.html" class="slide-item">Scroll Bar</a>
-                            </li>
-                            <li>
-                                <a href="sweet-alerts.html" class="slide-item">Sweet Alerts</a>
-                            </li>
-                            <li>
-                                <a href="timeline.html" class="slide-item">Timeline</a>
-                            </li>
-                            <li>
-                                <a href="users.html" class="slide-item">Users</a>
+                                <a href="news.php" class="slide-item">News</a>
                             </li>
                         </ul>
                     </li>
