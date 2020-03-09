@@ -14,8 +14,8 @@ R::setup('mysql:host=localhost;dbname=newsDb', 'root', ''); //for both mysql or 
 									<div class="card shadow">
 										<div class="card-header">
 											<p class="mb-0">Data Table
-                                            <a class="btn btn-success" href="addnews.php" style="color: #FFF; float: right"
-                                            >Add News and Updates</a>
+                                            <a class="btn btn-primary" href="addnews.php" style="color: #FFF; float: right"
+                                            >Add News</a>
                                             </p>
 										</div>
 

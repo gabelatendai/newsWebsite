@@ -58,10 +58,9 @@ $title =$_POST['title'];
                                                                     <?php
                                                                 }
                                                                 ?>
-                                                               <option <a class="btn btn-success" href="addcategory.php" style="color: #FFF; float: right"
-                                                                >Add News and Updates</a></select>
-
                                                             </select>
+                                                            <a class="btn btn-primary" href="addcategory.php" style="float: right"
+                                                            ><i class="ion-plus"></i>Add Category</a>
                                                         </div>
                                                         <div class="form-group">
                                                             <input type="file" class="form-control" name="image" required>
@@ -73,7 +72,8 @@ $title =$_POST['title'];
                                                     <br>
                                                     <br>
                                                     <div class="col-md-10">
-                                                        <button type="submit" class="form-control btn-block btn-primary text-center" name="add" value="Add News">Add News</button>
+                                                        <button type="submit" class="form-control btn-block btn-primary text-center" name="add" value="Add News">
+                                                            <i class="ion-plus"></i>Add News</button>
                                                     </div>
                                                     </div>
                                                 </form>

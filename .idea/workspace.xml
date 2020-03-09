@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dea5ce8-3052-40ca-9c39-1746530a11d3" name="Default Changelist" comment="added add news code">
-      <change afterPath="$PROJECT_DIR$/Uploads/20190126_115507.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/addcategory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rb.php" afterDir="false" />
+    <list default="true" id="6dea5ce8-3052-40ca-9c39-1746530a11d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/addnews.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/addnews.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/news.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/sidebar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583648942438</updated>
-      <workItem from="1583648954246" duration="18376000" />
+      <workItem from="1583648954246" duration="21869000" />
+      <workItem from="1583784262566" duration="2606000" />
     </task>
     <task id="LOCAL-00001" summary="added add news code">
       <created>1583678003182</created>
@@ -71,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583678003182</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added add news code">
+      <created>1583682574870</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583682574870</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,10 +108,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583652803163" />
-    <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1583648954746">
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1583784314947">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583648954746" />
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583784314947" />
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583654068572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
