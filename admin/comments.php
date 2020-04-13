@@ -24,31 +24,29 @@ R::setup('mysql:host=localhost;dbname=newsDb', 'root', ''); //for both mysql or 
 												<table id="example" class="table table-striped table-bordered w-100 text-nowrap">
 													<thead>
 														<tr>
-															<th class="wd-15p">Image</th>
-															<th class="wd-15p">Title</th>
-															<th class="wd-15p">Category</th>
-															<th class="wd-15p">Views</th>
+															<th class="wd-15p">News Title</th>
+															<th class="wd-15p">Commenter Name</th>
+															<th class="wd-15p">Commenter Email</th>
 
 															<th class="wd-25p">Delete</th>
 														</tr>
 													</thead>
                                                     <tbody>
                                                     <?php
-                                                    $sliders = R::findAll('news');
+                                                    $sliders = R::findAll('comments');
 
                                                     foreach ($sliders as $slider) {
                                                         $id = $slider->id;
                                                         $slug = $slider->slug;
-                                                         $cat_id = $slider->category;
-                                                          $cat = R::findOne('categories', 'id=?', [$cat_id]);
+                                                         $cat_id = $slider->news_id;
+                                                          $cat = R::findOne('news', 'id=?', [$cat_id]);
                                                         ?>
 
                                                         <tr>
-                                                            <td><img src="../<?php echo $slider->image ?>" height="70px"
-                                                                     width="100px"></td>
-                                                            <td><?php echo $slider->title ?></td>
                                                             <td><?php echo $cat->title ?></td>
-                                                            <td><?php echo $slider->views ?></td>
+                                                            <td><?php echo $slider->name ?></td>
+                                                            <td><?php echo $slider->email ?></td>
+                                                            <td><a href="coments_detail.php<?php echo '?id=' . $id; ?>">View</td>
                                                             <td><a class="pull-right" href="#delete<?php echo $id; ?>"
                                                                    data-toggle="modal"
                                                                    data-target="#delete<?php echo $id; ?>">
@@ -78,7 +76,7 @@ R::setup('mysql:host=localhost;dbname=newsDb', 'root', ''); //for both mysql or 
                                                                                                 class="glyphicon glyphicon-remove icon-white"></i>
                                                                                         No
                                                                                     </button>
-                                                                                    <a href="delete-article.php<?php echo '?id=' . $id; ?>"
+                                                                                    <a href="delete-comment.php<?php echo '?id=' . $id; ?>"
                                                                                        style="margin-bottom:5px;"
                                                                                        class="btn btn-primary"><i
                                                                                                 class="glyphicon glyphicon-ok icon-white"></i>

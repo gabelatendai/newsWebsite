@@ -2,11 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dea5ce8-3052-40ca-9c39-1746530a11d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uploads/b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uploads/clothing-store-984396_640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uploads/d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/coments_detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/delete-article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/delete-comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/feedback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/newsletters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/breaking.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single6.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/addnews.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/addnews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaking.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entertainment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/short-codes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w3layouts-License.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +73,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\NewsWebSite\admin" />
+      <recent name="C:\xampp\htdocs\NewsWebSite" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -60,7 +87,11 @@
       <option name="presentableId" value="Default" />
       <updated>1583648942438</updated>
       <workItem from="1583648954246" duration="21869000" />
-      <workItem from="1583784262566" duration="2606000" />
+      <workItem from="1583784262566" duration="3324000" />
+      <workItem from="1586417658374" duration="2782000" />
+      <workItem from="1586460257032" duration="1733000" />
+      <workItem from="1586588351582" duration="39308000" />
+      <workItem from="1586757554863" duration="4022000" />
     </task>
     <task id="LOCAL-00001" summary="added add news code">
       <created>1583678003182</created>
@@ -76,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583682574870</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added add news code">
+      <created>1583786956240</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583786956240</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,37 +126,45 @@
     <option name="LAST_COMMIT_MESSAGE" value="added add news code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="86" y="0" key="CommitChangelistDialog2" timestamp="1583682558035">
+    <state x="86" y="0" key="CommitChangelistDialog2" timestamp="1583786999035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="86" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583682558035" />
+    <state x="86" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583786999035" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1583659123017">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1583659123017" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1583649773188">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1586461864612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1583649773188" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586461864612" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1586597272358">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1586597272358" />
     <state x="392" y="78" key="RollbackChangesDialog" timestamp="1583669930737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="392" y="78" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583669930737" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1586606363635">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1586606363635" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1583652803163">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583652803163" />
-    <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1583784314947">
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1586773096792">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583784314947" />
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586773096792" />
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583654068572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1583654068572" />
-    <state x="212" y="166" key="run.anything.popup" timestamp="1583669857617">
+    <state x="212" y="166" key="run.anything.popup" timestamp="1586634702590">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="212" y="166" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1583669857617" />
+    <state x="212" y="166" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586634702590" />
   </component>
 </project>

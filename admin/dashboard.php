@@ -1,5 +1,17 @@
 <?php
 include "sidebar.php";
+include '../rb.php';
+R::setup('mysql:host=localhost;dbname=newsDb', 'root', ''); //for both mysql or mariaDB
+
+$db = mysqli_connect("localhost", "root", "", "newsDb");
+$c = R::count('comments');
+$news = R::count('news');
+$fb = R::count('feedback');
+$nl = R::count('newsletter');
+$cat = R::count('categories');
+$c = R::count('comments');
+$views = (int)R::getCell('SELECT SUM(views) FROM news');
+
 ?>
 							<div class="card shadow overflow-hidden">
 								<div class="">
@@ -8,59 +20,59 @@ include "sidebar.php";
 											<div class="text-center">
 												<p class="text-light">
 													<i class="fas fa-chart-line mr-2"></i>
-													Today sales
+													All News
 												</p>
-												<h2 class="text-primary text-xxl">1235</h2>
-												<a href="#" class="btn btn-outline-primary btn-pill btn-sm">30% decrease</a>
+												<h2 class="text-primary text-xxl"><?php echo $news ?></h2>
+												<a href="news.php" class="btn btn-outline-primary btn-pill btn-sm">View All News</a>
 											</div>
 										</div>
 										<div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 stats">
 											<div class="text-center">
 												<p class="text-light">
 												  <i class="fas fa-users mr-2"></i>
-												  New Users
+												  Feedback
 												</p>
-												<h2 class="text-yellow text-xxl">523</h2>
-												<a href="#" class="btn btn-outline-yellow btn-pill btn-sm">10% increase</a>
+												<h2 class="text-yellow text-xxl"><?php echo $fb ?></h2>
+												<a href="feedback.php" class="btn btn-outline-yellow btn-pill btn-sm">View Feedback</a>
 											</div>
 										</div>
 										<div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 stats">
 											<div class="text-center">
 												<p class="text-light">
 												  <i class="fas fa-cart-arrow-down mr-2"></i>
-												  Today Orders
+												  News Categories
 												</p>
-												<h2 class="text-warning text-xxl">785</h2>
-												<a href="#" class="btn btn-outline-warning btn-pill btn-sm">9% decrease</a>
+												<h2 class="text-warning text-xxl"><?php echo $cat ?></h2>
+												<a href="Category.php" class="btn btn-outline-warning btn-pill btn-sm">View Categories</a>
 											</div>
 										</div>
 										<div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 stats">
 											<div class="text-center">
 												<p class="text-light">
 												  <i class="fas fa-signal mr-2"></i>
-												  Today sales Revenue
+												 News Comments
 												</p>
-												<h2 class="text-danger text-xxl">$ 125</h2>
-												<a href="#" class="btn btn-outline-danger btn-pill btn-sm">10% decrease</a>
+												<h2 class="text-danger text-xxl"><?php echo $c ?></h2>
+												<a href="comments.php" class="btn btn-outline-danger btn-pill btn-sm">View News Comments</a>
 											</div>
 										</div>
 										<div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 stats">
 											<div class="text-center">
 												<p class="text-light">
 												  <i class="fas fa-dollar-sign mr-2"></i>
-												 Today Profit
+												 News Letters
 												</p>
-												<h2 class="text-success text-xxl">$ 30</h2>
-												<a href="#" class="btn btn-outline-success btn-pill btn-sm">5% increase</a>
+												<h2 class="text-success text-xxl"><?php echo $nl ?></h2>
+												<a href="#" class="btn btn-outline-success btn-pill btn-sm">View News Letters</a>
 											</div>
 										</div>
 										<div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 stats">
 											<div class="text-center">
 												<p class="text-light">
 												  <i class="fas fa-briefcase mr-2"></i>
-												  Market Value
+												 Views
 												</p>
-												<h2 class="text-primary text-xxl">12</h2>
+												<h2 class="text-primary text-xxl"><?php echo $views ?></h2>
 												<a href="#" class="btn btn-outline-primary btn-pill btn-sm">View</a>
 											</div>
 										</div>
@@ -74,8 +86,8 @@ include "sidebar.php";
 											<div class="widget text-center">
 												<div><i class="fas fa-users fa-5x text-yellow"></i></div>
 												<h4 class="text-muted mt-2 mb-0">Online Visitors</h4>
-												<h2 class="display-2 mb-0">25,685</h2>
-												<a href="#" class="btn btn-outline-yellow mt-3 btn-sm btn-pill">view all</a>
+												<h2 class="display-2 mb-0"><?php echo $views ?></h2>
+												<a href="news.php" class="btn btn-outline-yellow mt-3 btn-sm btn-pill">view all</a>
 											</div>
 										</div>
 										<span class="updating-chart" data-peity='{ "fill": ["#ffa21d"]}'>5,3,9,6,5,9,2,5,3,6,7,8,6</span>
@@ -303,97 +315,7 @@ include "sidebar.php";
 								</div>
 							</div>
 
-							<div class="row">
-								<div class="col">
-									<div class="card shadow">
-										<div class="card-header bg-transparent border-0">
-											<h2 class=" mb-0">Product Sales Tables</h2>
-										</div>
-										<div class="">
-											<div class="grid-margin">
-												<div class="">
-													<div class="table-responsive">
-														<table class="table card-table table-vcenter text-nowrap align-items-center">
-															<thead class="thead-light">
-																<tr>
-																	<th>Product</th>
-																	<th>Sold</th>
-																	<th>Record point</th>
-																	<th>Stock</th>
-																	<th>Amount</th>
-																	<th>Stock Status</th>
-																</tr>
-															</thead>
-															<tbody>
-																<tr>
-																	<td class="text-sm font-weight-600">Women Wallet-E32N</td>
-																	<td>18</td>
-																	<td>05</td>
-																	<td>112</td>
-																	<td>$ 2,356</td>
-																	<td>In Stock</td>
-																</tr>
-																<tr>
-																	<td class="text-sm font-weight-600">Phone-345S</td>
-																	<td >10</td>
-																	<td>04</td>
-																	<td>210</td>
-																	<td>$ 3,522</td>
-																	<td>In Stock</td>
-																</tr>
-																<tr>
-																	<td class="text-sm font-weight-600">Doll-Elephant</td>
-																	<td >15</td>
-																	<td>05</td>
-																	<td>215</td>
-																	<td>$ 5,362</td>
-																	<td>In Stock</td>
-																</tr>
-																<tr>
-																	<td class="text-sm font-weight-600">Women-Kurtis</td>
-																	<td>21</td>
-																	<td>07</td>
-																	<td>102</td>
-																	<td>$ 1,326</td>
-																	<td>In Stock</td>
-																</tr>
-																<tr>
-																	<td class="text-sm font-weight-600">Mens Shoes</td>
-																	<td>34</td>
-																	<td>10</td>
-																	<td>325</td>
-																	<td>$ 5,234</td>
-																	<td>In Stock</td>
-																</tr>
-																<tr>
-																	<td class="text-sm font-weight-600">Mens Gold Metal Watch</td>
-																	<td>11</td>
-																	<td>04</td>
-																	<td>5</td>
-																	<td>$ 3,256</td>
-																	<td>
-																		<i class="fas fa-exclamation-triangle text-warning"></i>  Out of stock
-																	</td>
-																</tr>
-																<tr>
-																	<td class="text-sm font-weight-600">Laptop</td>
-																	<td>60</td>
-																	<td>10</td>
-																	<td>0</td>
-																	<td>$ 7,652</td>
-																	<td>
-																		<i class="fas fa-exclamation-triangle text-danger"></i> Out of stock
-																	</td>
-																</tr>
-															</tbody>
-														</table>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+
 <?php
                             include "footer.php";
                             ?>

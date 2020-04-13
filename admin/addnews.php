@@ -13,7 +13,7 @@ $title =$_POST['title'];
     $filetmp = $_FILES['image']['tmp_name'];
     $filename = $_FILES['image']['name'];
     $filetype = $_FILES['image']['tmp_name'];
-    $filepath = "../Uploads/" . $filename;
+    $filepath = "Uploads/" . $filename;
     move_uploaded_file($filetmp, $filepath);
 
 

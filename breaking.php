@@ -1,179 +1,21 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>News Times a Entertainment Category Flat Bootstrap Responsive Website Template | Breaking Stories:: w3layouts</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="News Times Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- Custom Theme files -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- js -->
-<script src="js/jquery-1.11.1.min.js"></script>
-<!-- //js -->
-<link href='//fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-</head>
-
-<body>
-<!-- banner -->
-	<div class="banner1">
-		<div class="banner-info1">
-			<div class="container">
-				<nav class="navbar navbar-default">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					  </button>
-						<div class="logo">
-							<a class="navbar-brand" href="index.html"><span>N</span> News Times</a>
-						</div>
-					</div>
-
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav cl-effect-18" id="cl-effect-18">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="events.html">Current events</a></li>
-							<li class="act"><a href="breaking.html" class="active">Breaking stories</a></li>
-							<li><a href="entertainment.html">Entertainment</a></li>
-							<li role="presentation" class="dropdown">
-								<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-								  Business <span class="caret"></span>
-								</a>
-								<ul class="dropdown-menu">
-								  <li><a href="short-codes.html">Market</a></li>
-								  <li><a href="short-codes.html">Reviews</a></li>
-								  <li><a href="short-codes.html">Stock</a></li>
-								</ul>
-							</li>
-							<li><a href="contact.html">Contact Us</a></li>
-						</ul>
-					</div><!-- /.navbar-collapse -->	
-					
-				</nav>
-			</div>
-		</div>
-	</div>
-<!-- //banner -->
-<!-- breaking-news -->
+<?php
+include "header.php";
+?>
 	<div class="breaking-news">
 		<div class="container">
-			<div class="move-text">
-				<div class="breaking_news">
-					<h2>Breaking News</h2>
-				</div>
-				<div class="marquee">
-					<div class="marquee1"><a class="breaking" href="single.html">A 5-year-old boy who recently returned to the U.S from Ebola-stricken West Africa is under observation after experiencing a fever.</a></div>
-					<div class="marquee2"><a class="breaking" href="single.html">The surprisingly successful president of the Philippines and peacemaking in the Philippines: Shaking it all up.</a></div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="clearfix"></div>
-				<script type="text/javascript" src="js/jquery.marquee.js"></script>
-				<script>
-				  $('.marquee').marquee({ pauseOnHover: true });
-				  //@ sourceURL=pen.js
-				</script>
-			</div>
-			<div class="breaking-news-grids">
-				<div class="col-md-8 breaking-news-grid-left">
-					<div class="wmuSlider example1">
-						<div class="wmuSliderWrapper">
-							<article style="position: absolute; width: 100%; opacity: 0;"> 
-								<div class="banner-wrap">
-									<div class="baner-beaking">
-										<h3>PSLV-c29 successfully launches all the 6 Singapore satellites into their orbits.</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-										sed do eiusmod tempor incididunt ut labore et dolore magna 
-										aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-										ullamco</p>
-									</div>
-								</div>
-							</article>
-							<article style="position: absolute; width: 100%; opacity: 0;"> 
-								<div class="banner-wrap">
-									<div class="baner-beaking baner-beaking1">
-										<h3>incididunt ut labore et nostrud exercitation ullamco dolore magna aliqua.</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-										sed do eiusmod tempor incididunt ut labore et dolore magna 
-										aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-										ullamco</p>
-									</div>
-								</div>
-							</article>
-						</div>
-					</div>
-					<script src="js/jquery.wmuSlider.js"></script> 
-					  <script>
-						$('.example1').wmuSlider();         
-					 </script> 
-
-				</div>
-				<div class="col-md-4 breaking-news-grid-right">
-					<h3>Breaking stories</h3>
-					<ul>
-						<li>
-							<div class="breaking-news-grid-right-grids">
-								<div class="breaking-news-grid-right-gridl">
-									<a href="#"><img src="images/11.jpg" alt=" " class="img-responsive" /></a>
-								</div>
-								<div class="breaking-news-grid-right-gridr">
-									<h4><a href="single.html">ut labore et dolore magnam aliquam quaerat voluptatem</a></h4>
-									<ul>
-										<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> User</a></li>
-										<li><a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 3,506 Likes</a></li>
-									</ul>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</li>
-						<li>
-							<div class="breaking-news-grid-right-grids">
-								<div class="breaking-news-grid-right-gridl">
-									<a href="#"><img src="images/12.jpg" alt=" " class="img-responsive" /></a>
-								</div>
-								<div class="breaking-news-grid-right-gridr">
-									<h4><a href="single.html">ut labore et dolore magnam aliquam quaerat voluptatem</a></h4>
-									<ul>
-										<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> User</a></li>
-										<li><a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 3,506 Likes</a></li>
-									</ul>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</li>
-						<li>
-							<div class="breaking-news-grid-right-grids">
-								<div class="breaking-news-grid-right-gridl">
-									<a href="#"><img src="images/13.jpg" alt=" " class="img-responsive" /></a>
-								</div>
-								<div class="breaking-news-grid-right-gridr">
-									<h4><a href="single.html">ut labore et dolore magnam aliquam quaerat voluptatem</a></h4>
-									<ul>
-										<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> User</a></li>
-										<li><a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 3,506 Likes</a></li>
-									</ul>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</li>
-					</ul>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
+            <h2 class="text-center">Breaking News</h2>
+            <br>
 			<div class="breaking-news-grids-bottom">
 				<div class="banner-bottom-grids">
+<?php
+
+$sliders = R::findAll('categories');
+
+foreach ($sliders as $slider) {
+    $slug = $slider->slug;
+
+    ?>
+
 					<div class="col-md-3 banner-bottom-grid-left">
 						<div class="br-bm-gd-lt">
 							<div class="overlay">
@@ -183,8 +25,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="health-pos">
 								<div class="health">
 									<ul>
-										<li><a href="#">Health</a></li>
-										<li>25 Dec 2015</li>
+										<li><a href="news.php<?php echo '?cat=' . $id; ?>"><?php echo $slider->title ?></a></li>
+                                        <li><?php echo  date('d-M-Y'); ?></li>
 									</ul>
 								</div>
 								<h3>But I must explain to you how all this mistaken idea.</h3>
@@ -200,84 +42,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 banner-bottom-grid-left">
-						<div class="br-bm-gd-lt br-bm-gd-lt1">
-							<div class="overlay">
-								<div class="arrow-left"></div>
-								<div class="rectangle"></div>
-							</div>
-							<div class="health-pos">
-								<div class="health">
-									<ul>
-										<li><a href="#" class="sport">Sports</a></li>
-										<li>25 Dec 2015</li>
-									</ul>
-								</div>
-								<h3>But I must explain to you how all this mistaken idea.</h3>
-								<div class="dummy">
-									<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut maiores alias.</p>
-								</div>
-								<div class="com-heart">
-									<ul>
-										<li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>200 Comments</a></li>
-										<li><a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>13,536 Likes</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 banner-bottom-grid-left">
-						<div class="br-bm-gd-lt br-bm-gd-lt2">
-							<div class="overlay">
-								<div class="arrow-left"></div>
-								<div class="rectangle"></div>
-							</div>
-							<div class="health-pos">
-								<div class="health">
-									<ul>
-										<li><a href="#" class="plane">Economic</a></li>
-										<li>25 Dec 2015</li>
-									</ul>
-								</div>
-								<h3>But I must explain to you how all this mistaken idea.</h3>
-								<div class="dummy">
-									<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut maiores alias.</p>
-								</div>
-								<div class="com-heart">
-									<ul>
-										<li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>180 Comments</a></li>
-										<li><a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>18,536 Likes</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 banner-bottom-grid-left">
-						<div class="br-bm-gd-lt br-bm-gd-lt3">
-							<div class="overlay">
-								<div class="arrow-left"></div>
-								<div class="rectangle"></div>
-							</div>
-							<div class="health-pos">
-								<div class="health">
-									<ul>
-										<li><a href="#" class="general">General</a></li>
-										<li>25 Dec 2015</li>
-									</ul>
-								</div>
-								<h3>But I must explain to you how all this mistaken idea.</h3>
-								<div class="dummy">
-									<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut maiores alias.</p>
-								</div>
-								<div class="com-heart">
-									<ul>
-										<li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>150 Comments</a></li>
-										<li><a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>15,536 Likes</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
+
+    <?php }?>
 					<div class="clearfix"> </div>
 				</div>
 			</div>
@@ -629,68 +395,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 <!-- //breaking-news -->
-<!-- footer -->
-	<div class="footer-top">
-		<div class="container">
-			<p>at least 150 missing and there dead in landslide after monsoon 
-				rains in central Sri Lanka, officials say <a href="#">http//example.com</a></p>
-		</div>
-	</div>
-	<div class="footer">
-		<div class="container">
-			<div class="footer-grids">
-				<div class="col-md-4 footer-grid-left">
-					<h3>twitter feed</h3>
-					<ul>
-						<li><a href="#">the moment an unlimited #antares rocket exploded seconds after launch 
-							<i>http//example.com</i></a><span>15 minutes ago</span></li>
-						<li><a href="mailto:info@example.com" class="cols">@NASA</a> & <a href="mailto:info@example.com" class="cols">
-							@orbital science</a> <a href="#">gathering data on failure #antares rocket bound 
-							for international space</a><span>45 minutes ago</span></li>
-						<li><a href="#">ex-cabinet minister chris huhne loses legal challenge over $77,750 
-							court costs incurred in speeding points</a><span>1 day ago</span></li>
-					</ul>
-				</div>
-				<div class="col-md-4 footer-grid-left">
-					<h3>contact form</h3>
-					<form>
-						<input type="text" value="enter your full name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'enter your full name';}" required="">
-						<input type="email" value="enter your email address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'enter your email address';}" required="">
-						<textarea onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-						<input type="submit" value="Submit" >
-					</form>
-				</div>
-				<div class="col-md-4 footer-grid-left">
-					<h3>about us</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-						<span>But I must explain to you how all this mistaken idea of denouncing
-						pleasure and praising pain was born and I will give you a complete 
-						account of the system, and expound the actual teachings of the 
-						great explorer.</span>
-						<i>- The Entire TLG Team</i></p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="footer-bottom">
-				<div class="footer-bottom-left">
-					<p>&copy 2016 News Times. All rights reserved | Template by <a href="http://w3layouts.com/">W3layouts.</a></p>
-				</div>
-				<div class="footer-bottom-right">
-					<ul>
-						<li><a href="#" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a></li>
-						<li><a href="#" class="icon-button google"><i class="icon-google"></i><span></span></a></li>
-						<li><a href="#" class="icon-button v"><i class="icon-v"></i><span></span></a></li>
-					</ul>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-<!-- //footer -->
-<!-- for bootstrap working -->
-	<script src="js/bootstrap.js"></script>
-<!-- //for bootstrap working -->
-</body>
-</html>
+<?php
+include "footer.php";
+?>

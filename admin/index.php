@@ -105,7 +105,7 @@ if (isset($_POST['login'])) {
 							Forgot
 						</span>
 						<a class="txt2" href="">
-							Username / Password?
+							Email / Password?
 						</a>
 					</div>
 
