@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dea5ce8-3052-40ca-9c39-1746530a11d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Uploads/b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Uploads/clothing-store-984396_640.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Uploads/d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/coments_detail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/comments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/delete-article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/delete-comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/feedback.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/newsletters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/breaking.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single6.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/addnews.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/addnews.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/news.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breaking.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entertainment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/events.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/short-codes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/w3layouts-License.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +61,7 @@
       <workItem from="1586417658374" duration="2782000" />
       <workItem from="1586460257032" duration="1733000" />
       <workItem from="1586588351582" duration="39308000" />
-      <workItem from="1586757554863" duration="4022000" />
+      <workItem from="1586757554863" duration="4294000" />
     </task>
     <task id="LOCAL-00001" summary="added add news code">
       <created>1583678003182</created>
@@ -114,7 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583786956240</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added add news code">
+      <created>1586783549089</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586783549089</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added add news code">
+      <created>1586783604209</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586783604209</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,10 +110,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="added add news code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="86" y="0" key="CommitChangelistDialog2" timestamp="1586783539764">
+    <state x="86" y="0" key="CommitChangelistDialog2" timestamp="1586783735179">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="86" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586783539764" />
+    <state x="86" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586783735179" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1583659123017">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
